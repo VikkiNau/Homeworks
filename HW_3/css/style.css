@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+.text{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 30px;
+}
+
+.main-place{
+    padding: 20px;
+
+}
+
+.title-place{
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.text-place{
+    clear: right;
+}
+
+.img-alaska{
+    float: left;
+    padding: 10px;
+    width: 300px;
+}
+
+.main-name{
+    margin-top: 50px;
+    padding: 20px;
+
+}
+
+.title-name{
+    text-shadow: 2px 2px 5px blue;
+    text-align: center;
+    font-family: 'Bangers', cursive;    
+}
+
+.text-name{
+    clear: left;
+}
+
+.img-lights{
+    float: right;
+    padding: 10px;
+    width: 300px;
+}
+
+.info{
+    text-align: right;
+    margin-top: 50%;
+}
+
