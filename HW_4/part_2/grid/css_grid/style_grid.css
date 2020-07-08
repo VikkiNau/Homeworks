@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+div p{
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 700;
+}
+
+.border{
+    box-sizing: border-box;    
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: teal;
+}
+
+.cont{
+    width: 100%;
+    display: grid;
+    grid-template-columns: calc(100%/5) auto calc(100%/5);
+
+}
+
+.sidebarleft{
+    background-color: chocolate;
+    height: 800px;
+}
+
+.main{
+    background-color: rgb(133, 245, 245);
+    height: 800px;
+}
+
+.sidebarright{
+    background-color: coral;
+    height: 800px;
+}
+ 
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
