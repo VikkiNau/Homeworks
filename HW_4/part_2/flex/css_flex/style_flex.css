@@ -3,11 +3,11 @@ body{
     padding: 0;
 }
 
-/*div p{
+p{
     text-align: center;
     padding-top: 5%;
     font-weight: 700;
-}*/
+}
 
 .border{
     box-sizing: border-box;    
@@ -23,23 +23,24 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    height: 400px;
 }
 
 .sidebarleft{
-    width: calc(100%/5);
-    height: 400px;
+    width: 20%;
+    height: 100%;
     background-color: chocolate;
 }
 
 .main{
-    width: auto;
-    height: 400px;
+    width: 60%;
+    height: 100%;
     background-color: rgb(133, 245, 245);
 }
 
 .sidebarright{
-    width: calc(100%/5);
-    height: 400px;
+    width: 20%;
+    height: 100%;
     background-color: coral;
 }
  
