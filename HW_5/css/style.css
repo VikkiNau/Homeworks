@@ -1,0 +1,380 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    margin-top: -100px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.logo-header{
+    margin-top: 20px;
+}
+
+.navig{
+    margin-right: 200px;
+}
+
+
+.list{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+}
+
+.hero-img{
+   background-image: url("../img/hero-img.jpg");    
+   background-position: center;
+   width: 100%;
+   height: 800px;
+   margin-top: 100px;
+
+
+}
+
+.hero-text{
+    margin-top: 3%;
+    font-size: 80px;
+    line-height: 90px;
+    color: white;
+    float: right;
+    padding-left: 200px;
+    padding: 200px;
+}
+
+.what-we-do{
+    margin-left: 20%;
+    margin-right: 20%;
+
+
+}
+
+.what-we-do-name{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 1.1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+
+.what-we-do-text{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #9b9b9b;
+
+}
+
+.option{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.option-img{
+
+}
+
+.strategise{
+    width: calc(100%/3);
+
+}
+
+.strategise-name{
+    color: #001A33;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.strategise-text{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    color: #4A4A4A;
+    font-weight: 300;
+}
+
+.designe{
+    width: calc(100%/3);
+}
+.designe-name{
+    color: #001A33;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.designe-text{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    color: #4A4A4A;
+    font-weight: 300;
+}
+
+.develop{
+    width: calc(100%/3);
+}
+.develop-name{
+    color: #001A33;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.develop-text{
+    font-family: 'Montserrat';
+    font-size: 19px;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    color: #4A4A4A;
+    font-weight: 300;
+}
+
+.btn-services-main{
+    align-content: center;
+}
+
+.btn-services{
+    margin-top: 5%;    
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.featured-project{
+    width: 100%;
+    height: 700px;
+    background-image: url(../png/featured-projects.png),linear-gradient(290deg, #ffde58, #f4590b);
+}
+
+.featured-project-name-text{
+    
+}
+
+.featured-project-name{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.featured-project-text{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 19px;
+    line-height: 1.71;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    /* color: #4A4A4A; */
+    font-weight: 300;
+}
+
+.btn-project{
+    display: block;
+    min-width: 220px;
+    max-width: 250px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: white;
+    color: #FF652A;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.featured-client{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.featured-client-name{
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 1.1px;
+    text-align: left;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+.featured-client-text{ 
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #9b9b9b;
+}
+
+.logo{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.is-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+
+}
+.discovery-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.apple-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.rain-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.m-net-log{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.creamer-media-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.momentum-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+.aia-logo{
+    width: 240px;
+    height: 170px;
+    float: left;
+    margin-right: 3%;
+    margin-top: 3%;
+    text-align: center;
+    line-height: 170px;
+    background-color: #fafafa;
+}
+
+.get-in-touch{
+    height: 500px;
+    background-color:#FAFAFA;
+}
+.get-in-touch-name{
+    margin-top: 25px !important;
+    text-align: center !important;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0.8px;
+    /* text-align: left; */
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.networks{
+    text-align: right;
+}
+
+.netw{
+    display: inline;
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+}
