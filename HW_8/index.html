@@ -13,68 +13,68 @@
     <br>
     <br>
         
-    <script>
-        var numberOfGroups = parseInt(prompt("Enter the number of groups:"));
-var numberOfStudents=parseInt(prompt("Enter the number of students in groups:"));;
+<script>
+    var numberOfGroups = parseInt(prompt("Enter the number of groups:"));
+    var numberOfStudents=parseInt(prompt("Enter the number of students in groups:"));;
 
-var goodPoint = 89;
-var normPoints = 65;
+    var goodPoint = 89;
+    var normPoints = 65;
 
-var groups=Initealezation(numberOfGroups,numberOfStudents);
-var allStudents =initStudentCount(groups) ;
+    var groups=Initealezation(numberOfGroups,numberOfStudents);
+    var allStudents =initStudentCount(groups) ;
 
-var goodStudents=[], normStudents = [], badStudents= [];
-findStudentsMark(allStudents);
+    var goodStudents=[], normStudents = [], badStudents= [];
+    findStudentsMark(allStudents);
 
-document.write("<br><br><h3> Good Students A+: </h3><hr>", goodStudents)
-document.write("<br><br><h3> Normal Students B: </h3><hr>", normStudents)
-document.write("<br><br><h3> Bad Students C: </h3><hr>", badStudents)
+    document.write("<br><br><h3> Good Students A+: </h3><hr>", goodStudents)
+    document.write("<br><br><h3> Normal Students B: </h3><hr>", normStudents)
+    document.write("<br><br><h3> Bad Students C: </h3><hr>", badStudents)
 
-//Initealezation
-function Initealezation(initGroup,initMark)
-{
-    var result=[];
-    for (let i = 0; i <numberOfGroups ; i++) 
+    //Initealezation
+    function Initealezation(initGroup,initMark)
     {
-        result[i] = [];
-        for (let j=0; j<numberOfStudents; j++)
+        var result=[];
+        for (let i = 0; i <numberOfGroups ; i++) 
         {
-            result[i][j] = (Math.floor( Math.random() * 101 ));       
-        }  
-    }
-    return result;
-}
-
-//end
-    function initStudentCount(sGroups)
-    {            
-        var studentsArray=[];
-        studentsArray=[].concat(...groups)
-        return studentsArray;
+            result[i] = [];
+            for (let j=0; j<numberOfStudents; j++)
+            {
+                result[i][j] = (Math.floor( Math.random() * 101 ));       
+            }  
+        }
+        return result;
     }
 
-//sort students
+    //end
+        function initStudentCount(sGroups)
+        {            
+            var studentsArray=[];
+            studentsArray=[].concat(...groups)
+            return studentsArray;
+        }
 
-function findStudentsMark(markStudents)
-{
-    for(let w=0; w<allStudents.length;w++)
+    //sort students
+
+    function findStudentsMark(markStudents)
     {
-        if(allStudents[w]>goodPoint)
+        for(let w=0; w<allStudents.length;w++)
         {
-            goodStudents.push(allStudents[w]);            
-        }
-        else if(allStudents[w]>=normPoints && allStudents[w]<goodPoint)
-        {
-            normStudents.push(allStudents[w]);          
-        }
-        else
-        {
-            badStudents.push(allStudents[w]);            
-        }
-    }    
-}
+            if(allStudents[w]>goodPoint)
+            {
+                goodStudents.push(allStudents[w]);            
+            }
+            else if(allStudents[w]>=normPoints && allStudents[w]<goodPoint)
+            {
+                normStudents.push(allStudents[w]);          
+            }
+            else
+            {
+                badStudents.push(allStudents[w]);            
+            }
+        }    
+    }
 
 
-    </script>
+</script>
 </body>
 </html>
