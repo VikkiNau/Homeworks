@@ -1,0 +1,19 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #dddddd;
+}
+.list-nav
+{
+    float: center;
+}
+.list-nav li
+{ 
+    list-style-type: none;
+    overflow: hidden;
+    margin-right: 10%;
+    cursor: pointer;
+    display: inline;
+}
+
